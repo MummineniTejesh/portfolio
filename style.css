@@ -63,7 +63,7 @@ nav{
         right:0;
         height:92vh;
         top:8vh;
-        background-color: aquamarine;
+        background-color: rgb(37 199 199);
         display: flex;
         flex-direction: column;
         align-items: center;
