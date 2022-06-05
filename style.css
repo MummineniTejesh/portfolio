@@ -11,7 +11,7 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    height: 8vh;
     background-color:rgb(37, 199, 199);
     font-family: 'Poppins', sans-serif;
     position: fixed;
@@ -41,7 +41,7 @@ nav{
 }
 .burger{
     position: relative;
-    left:15%;
+    left:5%;
     display: none;
     cursor:pointer;
 }
@@ -96,6 +96,7 @@ nav{
 .home{
     background-image: url("home.jpg");
     height:100vh;
+    width:100%;
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
@@ -103,18 +104,18 @@ nav{
     flex-direction: column;
 }
 .home h1{
+    color:rgb(37 199 199);
     font-family: 'Source Code Pro', monospace;
-    position:relative;
-    left:10%;
-    bottom:20%;
-
+    position:absoulte;
+    margin-left: 10%;
+    margin-bottom:20%;
 }
 .home h1 span{
     animation:blink 1s linear infinite;
 }
 .subtitle {
     align-self: center;
-    color: black;
+    color: rgb(37 199 199);
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
