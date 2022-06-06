@@ -94,7 +94,7 @@ nav{
 }
 
 .home{
-    background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+    background: linear-gradient(to bottom left, #227f8e 50%, #058186 50%);
     height:100vh;
     width:100%;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ nav{
     color: rgb(37 199 199);
     position:absolute;
     top:10%;
-    left:2%;
+    right:2%;
     font-family: 'Poppins', sans-serif;
 }
 

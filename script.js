@@ -25,7 +25,7 @@ function type(){
 
 //time
 window.addEventListener("load",initClock);
-document.querySelector("").addEventListener("click",)
+
 
 function initClock(){
     updateClock();
