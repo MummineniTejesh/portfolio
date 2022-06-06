@@ -94,7 +94,7 @@ nav{
 }
 
 .home{
-    background-image: url("home.jpg");
+    background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
     height:100vh;
     width:100%;
     background-repeat: no-repeat;
@@ -102,19 +102,27 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 10%;
 }
+
+.home .datetime{
+    color: rgb(37 199 199);
+    position:absolute;
+    top:10%;
+    left:2%;
+    font-family: 'Poppins', sans-serif;
+}
+
 .home h1{
-    color:rgb(37 199 199);
+    color:black;
     font-family: 'Source Code Pro', monospace;
-    position:absoulte;
-    margin-left: 10%;
-    margin-bottom:20%;
+    padding-bottom: 10%;
 }
 .home h1 span{
+    color:rgb(37 199 199);
     animation:blink 1s linear infinite;
 }
 .subtitle {
-    align-self: center;
     color: rgb(37 199 199);
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -132,7 +140,7 @@ nav{
 @keyframes fadeInUp {
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(-2rem);
     }
 }
 
