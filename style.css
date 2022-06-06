@@ -6,20 +6,27 @@
 }
 ::-webkit-scrollbar {
     width: 0px;
-  }
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+/* navigation bar */
+
+
 nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
     height: 8vh;
-    background-color:rgb(37, 199, 199);
+    background-color:#42C2FF;
     font-family: 'Poppins', sans-serif;
     position: fixed;
     top: 0;
     width:100%;
 }
 .logo{
-    color:white;
+    color:#EFFFFD;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -33,7 +40,7 @@ nav{
     list-style: none;
 }
 .nav-links a{
-    color: white;
+    color: #EFFFFD;
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: bold;
@@ -48,7 +55,7 @@ nav{
 .burger div{
     width:25px;
     height:3px;
-    background-color: white;
+    background-color: #EFFFFD;
     margin: 5px;
     transition: all 0.5s ease;
 }
@@ -63,7 +70,7 @@ nav{
         right:0;
         height:92vh;
         top:8vh;
-        background-color: rgb(37 199 199);
+        background-color: #42C2FF;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -93,8 +100,10 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+/* homepage */
+
 .home{
-    background: linear-gradient(to bottom left, #227f8e 50%, #058186 50%);
+    background: linear-gradient(to bottom left, #B8FFF9 50%,  #85F4FF 50%);
     height:100vh;
     width:100%;
     background-repeat: no-repeat;
@@ -106,7 +115,7 @@ nav{
 }
 
 .home .datetime{
-    color: rgb(37 199 199);
+    color: #42C2FF;
     position:absolute;
     top:10%;
     right:2%;
@@ -119,11 +128,11 @@ nav{
     padding-bottom: 10%;
 }
 .home h1 span{
-    color:rgb(37 199 199);
+    color:#42C2FF;
     animation:blink 1s linear infinite;
 }
 .subtitle {
-    color: rgb(37 199 199);
+    color: #42C2FF;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -144,16 +153,60 @@ nav{
     }
 }
 
+/* about page */
 
-.two{
+.about{
     height: 100vh;
-    background-color: red;
+    background-color: #B8FFF9;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+.about h1{
+    font-size:3rem;
+    color:#42C2FF;
+}
+.about .content{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about img{
+    height: 384px;
+    width:240px;
+}
+.about .message{
+    width:60%;
+    font-size: medium;
+    color:black;
+}
+.about .message a{
+    text-decoration: none;
+    color:#42C2FF;
+    background-color: transparent;
+    border:1px solid #42C2FF;
+    border-radius: 5px;
+    padding:5px;
+    font-size: 1.5rem;
+}
+.about .message a:hover{
+    background-color:aqua;
+}
+
+
+
+
+
+
+
 .three{
     height: 100vh;
-    background-color: yellow;
+    background-color: #85F4FF;
 }
 .four{
     height: 100vh;
-    background-color: purple;
+    background-color: #B8FFF9;
 }
