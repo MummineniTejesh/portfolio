@@ -156,7 +156,7 @@ nav{
 /* about page */
 
 .about{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #B8FFF9;
     display:flex;
     justify-content: center;
@@ -177,7 +177,16 @@ nav{
 .about img{
     height: 384px;
     width:240px;
+    margin-bottom: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
+.about img:hover{
+    height:400px;
+    width:246px;
+    margin:0px;
+}
+
 .about .message{
     width:60%;
     font-size: medium;
@@ -187,9 +196,9 @@ nav{
     text-decoration: none;
     color:#42C2FF;
     background-color: transparent;
-    border:1px solid #42C2FF;
+    border:2px solid #42C2FF;
     border-radius: 5px;
-    padding:5px;
+    padding:3px;
     font-size: 1.5rem;
 }
 .about .message a:hover{
@@ -197,15 +206,53 @@ nav{
 }
 
 
+/* skills */
 
-
-
-
-
-.three{
-    height: 100vh;
+.skills{
+    min-height: 100vh;
     background-color: #85F4FF;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+.skills h1{
+    font-size:3rem;
+    color:#42C2FF;
+}
+.skills .logos{
+    min-height:400px;
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills img{
+    margin:25px;
+    height:75px;
+    width:75px;
+}
+.skills img:hover{
+    margin:22.5px;
+    height:80px;
+    width:80px;
+}
+
+.skills .logos div{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 20px;
+}
+
+
+
+
+
 .four{
     height: 100vh;
     background-color: #B8FFF9;
