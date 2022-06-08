@@ -65,5 +65,3 @@ function updateClock(){
     for(var i = 0; i < ids.length; i++)
     document.getElementById(ids[i]).firstChild.nodeValue = values[i];
 }
-
-

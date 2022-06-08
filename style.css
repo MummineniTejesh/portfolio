@@ -194,15 +194,11 @@ nav{
 }
 .about .message a{
     text-decoration: none;
-    color:#42C2FF;
-    background-color: transparent;
-    border:2px solid #42C2FF;
+    color:#EFFFFD;
+    background-color: #42C2FF;
     border-radius: 5px;
     padding:3px;
     font-size: 1.5rem;
-}
-.about .message a:hover{
-    background-color:aqua;
 }
 
 
@@ -304,4 +300,67 @@ nav{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.contact h1{
+    font-size:3rem;
+    color:#42C2FF;
+}
+.ender{
+    width:80%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mail{
+    max-width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: #B8FFF9;
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    padding:2vw 4vw;
+    border-radius: 7px;
+}
+.form input,.form textarea{
+    border:0;
+    margin:10px 0px;
+    padding:10px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.form button{
+    padding:8px;
+    background-color: #42C2FF;
+    color:#EFFFFD;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width:150px;
+    margin: 10px auto 0px;
+    border-radius: 10px;
+}
+.social{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social img{
+    width:35px;
+}
+footer{
+    background-color: #42C2FF;
+    height:30px;
+    width:100%;
+    text-align: center;
+    color: #EFFFFD;
 }
