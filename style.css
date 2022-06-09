@@ -314,7 +314,7 @@ nav{
     flex-wrap: wrap;
 }
 .mail{
-    max-width:50%;
+    max-width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
